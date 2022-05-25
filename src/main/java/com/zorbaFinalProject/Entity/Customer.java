@@ -6,4 +6,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "Customer")
 public class Customer {
+
+    private int custId;
+
 }
